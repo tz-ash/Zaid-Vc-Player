@@ -448,12 +448,12 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                     InlineKeyboardButton("🗑 Close", callback_data="ccls"),
                 ],
-                [InlineKeyboardButton(text="🎧 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}")],
+                [InlineKeyboardButton(text="🎧 CHANNEL", url=f"https://t.me/zaid_Updates")],
             ]
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumb_name = "https://telegra.ph/file/a5e1cc2bced0c70aeb913.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -495,7 +495,7 @@ async def play(_, message: Message):
                   InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                   InlineKeyboardButton("🗑 Close", callback_data="ccls")
               ],[
-                  InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}")
+                  InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/zaid_Updates")
               ]
           ]
         )
@@ -537,7 +537,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                     InlineKeyboardButton("🗑 Close", callback_data="ccls")
                 ],[
-                    InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}")
+                    InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/Zaid_Updates")
                 ]
             ]
         )
@@ -573,7 +573,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="🎧 **playing** the song requested by {} via youtube music, in linked channel".format(
+            caption="🎧 **playing** the song requested by {} via Zaid Bot, in linked channel".format(
                 message.from_user.mention()
             ),
         )
