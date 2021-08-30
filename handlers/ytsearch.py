@@ -23,10 +23,10 @@ async def ytsearch(_, message: Message):
         i = 0
         text = ""
         while i < 5:
-            text += f"**Judul:** `{results[i]['title']}`\n"
-            text += f"**Durasi:** {results[i]['duration']}\n"
-            text += f"**Views:** {results[i]['views']}\n"
-            text += f"**Channel:** {results[i]['channel']}\n"
+            text += f"**🅝🅐🅜🅔:** `{results[i]['title']}`\n"
+            text += f"**🅓🅤🅡🅐🅣🅘🅞🅝:** {results[i]['duration']}\n"
+            text += f"**🅥🅘🅔🅦🅢:** {results[i]['views']}\n"
+            text += f"**🅒🅗🅐🅝🅝🅔🅛:** {results[i]['channel']}\n"
             text += f"https://www.youtube.com{results[i]['url_suffix']}\n\n"
             i += 1
         await m.edit(text, disable_web_page_preview=True)
