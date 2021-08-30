@@ -1,4 +1,4 @@
-<h2 align="centre">😈 🅩🅐🅘🅓 🅥🅒 🅟🅛🅐🅨🅔🅡🔥</h2>
+<h2 align="centre">😈 ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀʏᴇʀ🔥</h2>
 
 ### ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
@@ -71,25 +71,20 @@
 
 ## 🔎 ꜱᴜᴘᴘᴏʀᴛ ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ
 
-## Heroku Deployment 💜
-The easy way to host this bot, deploy to Heroku
+## ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛꜱ 💜
+ʜᴇʀᴏᴋᴜ ɪꜱ ᴛʜᴇ ᴇᴀꜱʏ ᴡᴀʏ ᴛᴏ ʜᴏꜱᴛ ᴜʀ ᴀᴘᴘꜱ
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/veezmusic)
+[![ᴢᴠᴄ ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itsunknown-12/Zaid-Vc-Player)
 
-## Railway Deployment 🚄
-For deployment on railway you can see the full of [Necessary Variables Here](https://github.com/levina-lab/VeezMusic/blob/main/example.env), make sure you fill all of it.
+## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚄
+ꜰᴏʀ ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ ᴍᴀᴋᴇ [Necessary Variables Here](https://github.com/Itsunknown-12/Zaid-Vc-Player/blob/main/example.env), make sure you fill all of it.
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/levina-lab/VeezMusic&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,GROUP_SUPPORT,ASSISTANT_NAME,OWNER_NAME,OWNER_ID,DATABASE_URL,LOG_CHANNEL,BROADCAST_AS_COPY,BG_IMAGE,UPDATES_CHANNEL,API_ID,API_HASH,PMPERMIT,SUDO_USERS,DURATION_LIMIT,THUMB_IMG)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Itsunknown-12/Zaid-Vc-Player&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,GROUP_SUPPORT,ASSISTANT_NAME,OWNER_NAME,OWNER_ID,DATABASE_URL,LOG_CHANNEL,BROADCAST_AS_COPY,UPDATES_CHANNEL,API_ID,API_HASH,PMPERMIT,SUDO_USERS,DURATION_LIMIT,)
 
-### Special Credits 💖
-- [Levina](https://github.com/levina-lab): Dev
-- [Tofik](https://github.com/tofikdn): Dev
-- [Zxce3](https://github.com/Zxce3): Dev
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Original Repo](https://github.com/callsmusic/callsmusic) CallsMusic
-- [Veez Music Bot](https://t.me/veezmusicbot) Our Music Bot
-- [RojSerBest](https://github.com/rojserbest) CallsMusic Developer
-- [TeamDaisyX](https://github.com/TeamDaisyX) for basic code
+### ꜱᴘᴇᴄɪᴀʟ ᴄʀᴇᴀᴅɪᴛꜱ 💖
+- [Levina](https://github.com/levina-lab): ʀᴇᴀʟ ᴅᴇᴠ💞
 
-### Support & Updates 🎑
-<a href="https://t.me/VeezSupportGroup"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/levinachannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+
+
+### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
+<a href="https://t.me/Zaid_Updates"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Zaid_Updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
