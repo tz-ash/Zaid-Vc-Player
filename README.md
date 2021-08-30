@@ -40,50 +40,50 @@
 - Lyrics Scrapper
 - Unlimited Queue
 
-## Commands 🛠
+## ᴄᴏᴍᴍᴀɴᴅꜱ 
 
-- `/play <song name>` - play song you requested
-- `/playlist` - Show now playing list
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
-- `/vsong <song name>` - download videos you want quickly
-- `/lyric <song name>` - lyrics scrapper
-- `/vk <song name>` - generate song without download
+- /ᴘʟᴀʏ <ꜱᴏɴɢ ɴᴀᴍᴇ> - ᴘʟᴀʏ ꜱᴏɴɢ ʏᴏᴜ ʀᴇQᴜᴇꜱᴛᴇᴅ
+- /ᴘʟᴀʏʟɪꜱᴛ - ꜱʜᴏᴡ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ʟɪꜱᴛ
+- /ꜱᴏɴɢ <ꜱᴏɴɢ ɴᴀᴍᴇ> - ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴏɴɢꜱ ʏᴏᴜ ᴡᴀɴᴛ Qᴜɪᴄᴋʟʏ
+- /ꜱᴇᴀʀᴄʜ <Qᴜᴇʀʏ> - ꜱᴇᴀʀᴄʜ ᴠɪᴅᴇᴏꜱ ᴏɴ ʏᴏᴜᴛᴜʙᴇ ᴡɪᴛʜ ᴅᴇᴛᴀɪʟꜱ
+- /ᴠꜱᴏɴɢ <ꜱᴏɴɢ ɴᴀᴍᴇ> - ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏꜱ ʏᴏᴜ ᴡᴀɴᴛ Qᴜɪᴄᴋʟʏ
+- /ʟʏʀɪᴄ <ꜱᴏɴɢ ɴᴀᴍᴇ> - ʟʏʀɪᴄꜱ ꜱᴄʀᴀᴘᴘᴇʀ
+- /ᴠᴋ <ꜱᴏɴɢ ɴᴀᴍᴇ> - ɢᴇɴᴇʀᴀᴛᴇ ꜱᴏɴɢ ᴡɪᴛʜᴏᴜᴛ ᴅᴏᴡɴʟᴏᴀᴅ
 
-#### Admins Only 👷‍♂️
-- `/player` - open music player settings panel
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
-- `/musicplayer on` - to disable music player in your group
-- `/musicplayer off` - to enable music player in your group
-- `/userbotjoin` - invite assistant to your chat
-- `/userbotleave` - remove assistant from your chat
-- `/reload` - Refresh admin list
-- `/uptime` - check the bot uptime status
-- `/ping` - check the bot ping status
-- `/auth` - authorized people to access the admin commands
-- `/deauth` - deauthorized people to access the admin commands
-- `/control` - open the music player control panel
+#### ᴀᴅᴍɪɴꜱ ᴏɴʟʏ 👷‍♂️
+- /ᴘʟᴀʏᴇʀ - ᴏᴘᴇɴ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ꜱᴇᴛᴛɪɴɢꜱ ᴘᴀɴᴇʟ
+- /ᴘᴀᴜꜱᴇ - ᴘᴀᴜꜱᴇ ꜱᴏɴɢ ᴘʟᴀʏ
+- /ʀᴇꜱᴜᴍᴇ - ʀᴇꜱᴜᴍᴇ ꜱᴏɴɢ ᴘʟᴀʏ
+- /ꜱᴋɪᴘ - ᴘʟᴀʏ ɴᴇxᴛ ꜱᴏɴɢ
+- /ᴇɴᴅ - ꜱᴛᴏᴘ ᴍᴜꜱɪᴄ ᴘʟᴀʏ
+- /ᴍᴜꜱɪᴄᴘʟᴀʏᴇʀ ᴏɴ - ᴛᴏ ᴅɪꜱᴀʙʟᴇ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
+- /ᴍᴜꜱɪᴄᴘʟᴀʏᴇʀ ᴏꜰꜰ - ᴛᴏ ᴇɴᴀʙʟᴇ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
+- /ᴜꜱᴇʀʙᴏᴛᴊᴏɪɴ - ɪɴᴠɪᴛᴇ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ
+- /ᴜꜱᴇʀʙᴏᴛʟᴇᴀᴠᴇ - ʀᴇᴍᴏᴠᴇ ᴀꜱꜱɪꜱᴛᴀɴᴛ ꜰʀᴏᴍ ʏᴏᴜʀ ᴄʜᴀᴛ
+- /ʀᴇʟᴏᴀᴅ - ʀᴇꜰʀᴇꜱʜ ᴀᴅᴍɪɴ ʟɪꜱᴛ
+- /ᴜᴘᴛɪᴍᴇ - ᴄʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴜᴘᴛɪᴍᴇ ꜱᴛᴀᴛᴜꜱ
+- /ᴘɪɴɢ - ᴄʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴘɪɴɢ ꜱᴛᴀᴛᴜꜱ
+- /ᴀᴜᴛʜ - ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴘᴇᴏᴘʟᴇ ᴛᴏ ᴀᴄᴄᴇꜱꜱ ᴛʜᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ
+- /ᴅᴇᴀᴜᴛʜ - ᴅᴇᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴘᴇᴏᴘʟᴇ ᴛᴏ ᴀᴄᴄᴇꜱꜱ ᴛʜᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ
+- /ᴄᴏɴᴛʀᴏʟ - ᴏᴘᴇɴ ᴛʜᴇ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ᴄᴏɴᴛʀᴏʟ ᴘᴀɴᴇʟ
 
-### Sudo User 🧙‍♂️
-- `/stats` - see the bot statistic
-- `/pmpermit on | off` turn on/off the assistant pmpermit
-- `/userbotleaveall` - order the assistant to leave all groups
-- `/gcast` - send a broadcast message from the assistant
+### ꜱᴜᴅᴏ ᴜꜱᴇʀ 🧙‍♂️
+- /ꜱᴛᴀᴛꜱ - ꜱᴇᴇ ᴛʜᴇ ʙᴏᴛ ꜱᴛᴀᴛɪꜱᴛɪᴄ
+- /ᴘᴍᴘᴇʀᴍɪᴛ ᴏɴ | ᴏꜰꜰ ᴛᴜʀɴ ᴏɴ/ᴏꜰꜰ ᴛʜᴇ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴘᴍᴘᴇʀᴍɪᴛ
+- /ᴜꜱᴇʀʙᴏᴛʟᴇᴀᴠᴇᴀʟʟ - ᴏʀᴅᴇʀ ᴛʜᴇ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴛᴏ ʟᴇᴀᴠᴇ ᴀʟʟ ɢʀᴏᴜᴘꜱ
+- /ɢᴄᴀꜱᴛ - ꜱᴇɴᴅ ᴀ ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇꜱꜱᴀɢᴇ ꜰʀᴏᴍ ᴛʜᴇ ᴀꜱꜱɪꜱᴛᴀɴᴛ
 
-### Owner Only 👨🏻‍✈️
-- `/broadcast` - send a broadcast message from the bot
-- `/block` - block people for using your bot
-- `/unblock` - unblock people you blocked for using your bot
-- `/blocklist` - show the list of all people who's blocked for using your bot
+### ᴏᴡɴᴇʀ ᴏɴʟʏ 👨🏻‍✈️
+- /ʙʀᴏᴀᴅᴄᴀꜱᴛ - ꜱᴇɴᴅ ᴀ ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇꜱꜱᴀɢᴇ ꜰʀᴏᴍ ᴛʜᴇ ʙᴏᴛ
+- /ʙʟᴏᴄᴋ - ʙʟᴏᴄᴋ ᴘᴇᴏᴘʟᴇ ꜰᴏʀ ᴜꜱɪɴɢ ʏᴏᴜʀ ʙᴏᴛ
+- /ᴜɴʙʟᴏᴄᴋ - ᴜɴʙʟᴏᴄᴋ ᴘᴇᴏᴘʟᴇ ʏᴏᴜ ʙʟᴏᴄᴋᴇᴅ ꜰᴏʀ ᴜꜱɪɴɢ ʏᴏᴜʀ ʙᴏᴛ
+- /ʙʟᴏᴄᴋʟɪꜱᴛ - ꜱʜᴏᴡ ᴛʜᴇ ʟɪꜱᴛ ᴏꜰ ᴀʟʟ ᴘᴇᴏᴘʟᴇ ᴡʜᴏ'ꜱ ʙʟᴏᴄᴋᴇᴅ ꜰᴏʀ ᴜꜱɪɴɢ ʏᴏᴜʀ ʙᴏᴛ
 
-### pm-permit 💬
-- `.yes` - approve user for sending message to assistant
-- `.no` - disapprove user for sending message to assistant
+### ᴘᴍ-ᴘᴇʀᴍɪᴛ 💬
+- .ʏᴇꜱ - ᴀᴘᴘʀᴏᴠᴇ ᴜꜱᴇʀ ꜰᴏʀ ꜱᴇɴᴅɪɴɢ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀꜱꜱɪꜱᴛᴀɴᴛ
+- .ɴᴏ - ᴅɪꜱᴀᴘᴘʀᴏᴠᴇ ᴜꜱᴇʀ ꜰᴏʀ ꜱᴇɴᴅɪɴɢ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀꜱꜱɪꜱᴛᴀɴᴛ
 
-## 🔎 Support Inline Search
+## 🔎 ꜱᴜᴘᴘᴏʀᴛ ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ
 
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku
