@@ -32,8 +32,8 @@ async def _human_time_duration(seconds):
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>✨ **Welcome {message.from_user.first_name}** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝗮𝗹𝗹𝗼𝘄 𝘆𝗼𝘂 𝘁𝗼 𝗽𝗹𝗮𝘆 𝗺𝘂𝘀𝗶𝗰 𝗼𝗻 𝗴𝗿𝗼𝘂𝗽𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘁𝗵𝗲 𝗻𝗲𝘄 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺'𝘀 𝘃𝗼𝗶𝗰𝗲 𝗰𝗵𝗮𝘁𝘀 !**
+        f"""<b>✨ **𝐁𝐡𝐞𝐥𝐜𝐨𝐦𝐞 {message.from_user.first_name}** \n
+💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝗮𝗹𝗹𝗼𝘄 𝘆𝗼𝘂 𝘁𝗼 𝗽𝗹𝗮𝘆 𝗺𝘂𝘀𝗶𝗰 𝗼𝗻 𝗴𝗿𝗼𝘂𝗽𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘁𝗵𝗲 𝗻𝗲𝘄 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺'𝘀 𝘃𝗼𝗶𝗰𝗲 𝗰𝗵𝗮𝘁𝘀 𝐩𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐳𝐚𝐢𝐝!**
 
 💡 **𝗙𝗶𝗻𝗱 𝗼𝘂𝘁 𝗮𝗹𝗹 𝘁𝗵𝗲 𝗕𝗼𝘁'𝘀 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗲𝘆 𝘄𝗼𝗿𝗸 𝗯𝘆 𝗰𝗹𝗶𝗰𝗸𝗶𝗻𝗴 𝗼𝗻 𝘁𝗵𝗲 » 📚 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗯𝘂𝘁𝘁𝗼𝗻 !**
 
@@ -43,28 +43,28 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛꜱ 😄", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "❓ How to use Me", callback_data="cbhowtouse")
+                        "😢 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                         "📚 Commands", callback_data="cbcmds"
+                         "😄 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}")
+                        "💝 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/Timesisnotwaiting")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Zaid_Support"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "🔥 ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Zaid_Updates")
                 ],[
                     InlineKeyboardButton(
-                        "🌐 Wiki's Page", url="https://github.com/levina-lab/veezmusic/wiki/Veez-Music-Wiki's")
+                        "😁 ᴏꜰꜰɪᴄɪᴀʟ ᴢᴀɪᴅ ᴄʜᴀᴛ", url="https://t.me/Zaid_Team1")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/levina-lab/VeezMusic"
+                        "😉 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ😍", url="https://github.com/Itsunknown-12/Zaid-Vc-Player"
                     )
                 ]
             ]
@@ -79,15 +79,15 @@ async def start(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        f"""✅ **bot is running**\n<b>💠 **uptime:**</b> `{uptime}`""",
+        f"""✅ **ᴢᴀɪᴅ ɪꜱ ʀᴜɴɴɪɴɢ**\n<b>💠 **ᴜᴘᴛɪᴍᴇ:**</b> `{uptime}`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Zaid_Support"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Zaid_Updates"
                     )
                 ]
             ]
@@ -99,14 +99,14 @@ async def help(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 **Hello** {message.from_user.mention()}</b>
 
-**Please press the button below to read the explanation and see the list of available commands !**
+**Please press the button below to read the explanation and see the list of available commands powered By Zaid!**
 
-⚡ __Powered by {BOT_NAME} A.I""",
+⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="❔ HOW TO USE ME", callback_data=f"cbguide"
+                        text="❔ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ", callback_data=f"cbguide"
                     )
                 ]
             ]
@@ -125,28 +125,28 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📚 Basic Cmd", callback_data="cbbasic"
+                        "📚 ʙᴀꜱɪᴄ ᴄᴍᴅꜱ", callback_data="cbbasic"
                     ),
                     InlineKeyboardButton(
-                        "📕 Advanced Cmd", callback_data="cbadvanced"
+                        "📕 ᴀᴅᴠᴀɴᴄᴇᴅ ᴄᴍᴅꜱ", callback_data="cbadvanced"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📘 Admin Cmd", callback_data="cbadmin"
+                        "📘 ᴀᴅᴍɪɴ ᴄᴍᴅꜱ", callback_data="cbadmin"
                     ),
                     InlineKeyboardButton(
-                        "📗 Sudo Cmd", callback_data="cbsudo"
+                        "📗 ꜱᴜᴅᴏ ᴄᴍᴅꜱ", callback_data="cbsudo"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📙 Owner Cmd", callback_data="cbowner"
+                        "📙 ᴏᴡɴᴇʀ ᴄᴍᴅꜱ", callback_data="cbowner"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📔 Fun Cmd", callback_data="cbfun"
+                        "😍 ꜰᴜɴ ᴄᴍᴅꜱ", callback_data="cbfun"
                     )
                 ]
             ]
@@ -157,11 +157,11 @@ async def help_(client: Client, message: Message):
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
-    m_reply = await message.reply_text("pinging...")
+    m_reply = await message.reply_text("ᴢ ᴘɪɴɴɢ...")
     delta_ping = time() - start
     await m_reply.edit_text(
-        "🏓 `PONG!!`\n"
-        f"⚡️ `{delta_ping * 1000:.3f} ms`"
+        "𝚣 `ᴘᴏɴɢ!!`\n"
+        f"🇿  `{delta_ping * 1000:.3f} ᴍꜱ`"
     )
 
 
@@ -172,7 +172,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🤖 bot status:\n"
-        f"• **uptime:** `{uptime}`\n"
-        f"• **start time:** `{START_TIME_ISO}`"
+        "🤖 ᴢᴀɪᴅ ꜱᴛᴀᴛᴜꜱ:\n"
+        f"• **ᴜᴘᴛɪᴍᴇ:** `{uptime}`\n"
+        f"• **ꜱᴛᴀʀᴛ ᴛɪᴍᴇ:** `{START_TIME_ISO}`"
     )
