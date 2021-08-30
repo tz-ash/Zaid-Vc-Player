@@ -257,7 +257,7 @@ async def p_cb(b, cb):
         temp.pop(0)
         if temp:
             msg += "\n\n"
-            msg += "**Antrian Lagu**"
+            msg += "**Playlist **"
             for song in temp:
                 name = song[0]
                 usr = song[1].mention(style="md")
