@@ -17,7 +17,8 @@
 🧪 ɢᴇᴛ STRING_SESSION ꜰʀᴏᴍ ʜᴇʀᴇ:
 
 [![ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@BoooCreative/StringSession-1#main.py)
-
+## Repo Stats
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=Itsunknown-12&repo=Zaid-Vc-Player&theme=dark)
 ## ᴄᴏᴍᴍᴀɴᴅꜱ 
 
 - /ᴘʟᴀʏ <ꜱᴏɴɢ ɴᴀᴍᴇ> - ᴘʟᴀʏ ꜱᴏɴɢ ʏᴏᴜ ʀᴇQᴜᴇꜱᴛᴇᴅ
