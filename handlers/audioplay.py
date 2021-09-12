@@ -1,6 +1,7 @@
 # this module i created only for playing music using audio file, idk, because the audio player on play.py module not working
 # so this is the alternative
 # audio play function
+#Ur motherfucker If U Kang And Don't Give Creadits
 
 from os import path
 
