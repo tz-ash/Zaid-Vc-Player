@@ -1,3 +1,5 @@
+#Ur motherfucker If U Kang And Don't Give Creadits
+
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, Chat, CallbackQuery
 from helpers.decorators import authorized_users_only
