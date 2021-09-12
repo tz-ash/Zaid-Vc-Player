@@ -11,7 +11,7 @@ from handlers.play import cb_admin_check
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>✨ **ʙʜᴇʟᴄᴏᴍᴇ ꜱɪʀ, ɪ ᴍ {query.message.from_user.mention}** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝗮𝗹𝗹𝗼𝘄 𝘆𝗼𝘂 𝘁𝗼 𝗽𝗹𝗮𝘆 𝗺𝘂𝘀𝗶𝗰 𝗼𝗻 𝗴𝗿𝗼𝘂𝗽𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘁𝗵𝗲 𝗻𝗲𝘄 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺'𝘀 𝘃𝗼𝗶𝗰𝗲 𝗰𝗵𝗮𝘁𝘀 𝐩𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐙𝐚𝐢𝐝 !**
+💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝗮𝗹𝗹𝗼𝘄 𝘆𝗼𝘂 𝘁𝗼 𝗽𝗹𝗮𝘆 𝗺𝘂𝘀𝗶𝗰 𝗼𝗻 𝗴𝗿𝗼𝘂𝗽𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘁𝗵𝗲 𝗻𝗲𝘄 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺'𝘀 𝘃𝗼𝗶𝗰𝗲 𝗰𝗵𝗮𝘁𝘀 𝐩𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐊𝐢𝐝 !**
 
 💡 **𝗙𝗶𝗻𝗱 𝗼𝘂𝘁 𝗮𝗹𝗹 𝘁𝗵𝗲 𝗕𝗼𝘁'𝘀 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗲𝘆 𝘄𝗼𝗿𝗸 𝗯𝘆 𝗰𝗹𝗶𝗰𝗸𝗶𝗻𝗴 𝗼𝗻 𝘁𝗵𝗲 » 📚 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗯𝘂𝘁𝘁𝗼𝗻 !**
 
@@ -30,19 +30,19 @@ async def cbstart(_, query: CallbackQuery):
                          "👀 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 ᴅᴇᴠʟᴏᴘᴇʀ", url=f"https://t.me/Timesisnotwaiting")
+                        "💝 ᴅᴇᴠʟᴏᴘᴇʀ", url=f"https://t.me/kidhub")
                 ],[
                     InlineKeyboardButton(
-                        "👥 ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Zaid_Support"
+                        "👥 ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/tzkid"
                     ),
                     InlineKeyboardButton(
-                        "📣 ᴏꜰꜰɪᴄɪᴀʟ ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/Zaid_Updates")
+                        "📣 ᴏꜰꜰɪᴄɪᴀʟ ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/kidbots")
                 ],[
                     InlineKeyboardButton(
-                        "😈 ᴢᴀɪᴅ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴘ", url="https://t.me/Zaid_team1")
+                        "😈 ᴢᴀɪᴅ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴘ", url="https://t.me/tzkid")
                 ],[
                     InlineKeyboardButton(
-                        "💥 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💫", url="https://github.com/Itsunknown-12/Zaid-Vc-Player"
+                        "💥 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💫", url="https://t.me/magiclmush"
                     )
                 ]
             ]
@@ -54,7 +54,7 @@ async def cbstart(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbhelp"))
 async def cbhelp(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>💡 Hello there, welcome to the help menu Powered by @Zaid_Updates !</b>
+        f"""<b>💡 Hello there, welcome to the help menu Powered by @kidbots !</b>
 
 **in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
 
@@ -102,7 +102,7 @@ async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>🏮 here is the basic commands</b>
 
-🎧 [ ᴢᴀɪᴅ ɢʀᴘ ᴄᴍᴅꜱ ]
+🎧 [ ᴋɪᴅ ɢʀᴘ ᴄᴍᴅꜱ ]
 
 /play (song name) - play song from youtube
 /ytp (song name) - play song directly from youtube 
@@ -114,7 +114,7 @@ async def cbbasic(_, query: CallbackQuery):
 /lyric - (song name) lyrics scrapper
 /vk (song name) - download song from inline mode
 
-🎧 [ ᴢᴀɪᴅ ᴄʜᴀɴɴᴇʟꜱ ᴄᴍᴅꜱ ]
+🎧 [ ᴋɪᴅ ᴄʜᴀɴɴᴇʟꜱ ᴄᴍᴅꜱ ]
 
 /cplay - stream music on channel voice chat
 /cplayer - show the song in streaming
@@ -149,7 +149,7 @@ async def cbadvanced(_, query: CallbackQuery):
 /ping - check the bot ping status
 /uptime - check the bot uptime status
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} ᴋɪᴅ__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -183,7 +183,7 @@ async def cbadmin(_, query: CallbackQuery):
 /m and /tm (mute / temporary mute) - mute permanently or temporarily muted user in group
 /um - to unmute user you're muted in group
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} ᴋɪᴅ__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -205,7 +205,7 @@ async def cbsudo(_, query: CallbackQuery):
 /gcast - send a broadcast message trought the assistant
 /stats - show the bot statistic
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} ᴋɪᴅ__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -231,7 +231,7 @@ async def cbowner(_, query: CallbackQuery):
 
 📝 note: all commands owned by this bot can be executed by the owner of the bot without any exceptions.
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} ᴋɪᴅ__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -255,7 +255,7 @@ async def cbfun(_, query: CallbackQuery):
 /truth - check it by yourself
 /dare - check it by yourself
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} ᴋɪᴅ__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -278,7 +278,7 @@ async def cbguide(_, query: CallbackQuery):
 3.) **add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her**.
 4.) **turn on the voice chat first before start to play music**.
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} ᴋɪᴅ__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -370,7 +370,7 @@ and you can also set a time for the ban and mute penalties for members in your g
 
 📝 note: cmd /b, /tb and /ub is the function to banned/unbanned user from your group, whereas /m, /tm and /um are commands to mute/unmute user in your group.
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} ᴋɪᴅ__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -400,7 +400,7 @@ async def cbdelcmds(_, query: CallbackQuery):
  2️⃣ to turn off feature:
      » type `/delcmd off`
       
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} ᴋɪᴅ__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -420,7 +420,7 @@ async def cbhelps(_, query: CallbackQuery):
 
 **in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} ᴋɪᴅ__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -469,7 +469,7 @@ async def cbguides(_, query: CallbackQuery):
 3.) add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.
 4.) turn on the voice chat first before start to play music.
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
+⚡ __Powered by {BOT_NAME} ᴋɪᴅ__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
