@@ -64,7 +64,7 @@ async def start_(client: Client, message: Message):
                         "😁 ᴏꜰꜰɪᴄɪᴀʟ ᴋɪᴅ ᴄʜᴀᴛ", url="https://t.me/tzkid")
                 ],[
                     InlineKeyboardButton(
-                        "😉 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ😍", url="https://t.me/magiclmush"
+                        "😉 ᴍᴀɢɪᴄᴀʟ ᴍᴜꜱʜ😍", url="https://t.me/magiclmush"
                     )
                 ]
             ]
@@ -172,7 +172,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🤖 ᴢᴀɪᴅ ꜱᴛᴀᴛᴜꜱ:\n"
+        "🤖 ᴋɪᴅ ꜱᴛᴀᴛᴜꜱ:\n"
         f"• **ᴜᴘᴛɪᴍᴇ:** `{uptime}`\n"
         f"• **ꜱᴛᴀʀᴛ ᴛɪᴍᴇ:** `{START_TIME_ISO}`"
     )
