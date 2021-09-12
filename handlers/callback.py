@@ -39,10 +39,10 @@ async def cbstart(_, query: CallbackQuery):
                         "📣 ᴏꜰꜰɪᴄɪᴀʟ ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/kidbots")
                 ],[
                     InlineKeyboardButton(
-                        "😈 ᴢᴀɪᴅ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴘ", url="https://t.me/tzkid")
+                        "😈 ᴏꜰꜰɪᴄɪᴀʟ ᴋɪᴅ ɢʀᴘ", url="https://t.me/tzkid")
                 ],[
                     InlineKeyboardButton(
-                        "💥 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💫", url="https://t.me/magiclmush"
+                        "💥 ᴍᴀɢɪᴄᴀʟ ᴍᴜꜱʜ 💫", url="https://t.me/magiclmush"
                     )
                 ]
             ]
