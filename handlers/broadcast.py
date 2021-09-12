@@ -1,3 +1,5 @@
+#Ur motherfucker If U Kang And Don't Give Creadits
+
 import asyncio
 
 from pyrogram import Client, filters
