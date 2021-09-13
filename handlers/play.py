@@ -88,7 +88,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.write(await resp.read())
                 await f.close()
     image1 = Image.open("./background.png")
-    image2 = Image.open("etc/IMG_20210912_162528_648.png")
+    image2 = Image.open("etc/1_5039778796232769879.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
