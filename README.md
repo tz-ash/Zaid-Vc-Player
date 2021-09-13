@@ -1,6 +1,6 @@
-<h2 align="centre">  ᴠᴄ ᴘʟᴀʏᴇʀ🔥</h2>
+<h2 align="centre"> ᴋɪᴅ ᴠᴄ ᴘʟᴀʏᴇʀ🔥</h2>
 
-### ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
+### ᴋɪᴅ ᴠᴄ ᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
 <p align="center"><a href="https://t.me/Zaid_Team1"><img src="https://telegra.ph/file/ac4f097283b27915d7975.png" width="300"></a></p>
 <p align="center">
@@ -80,4 +80,4 @@
 
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
-<a href="https://t.me/kidbots"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Zaid_Updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/tzkid"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/kidbots"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
