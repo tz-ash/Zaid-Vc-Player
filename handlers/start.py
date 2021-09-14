@@ -101,7 +101,7 @@ async def help(client: Client, message: Message):
 
 **Please press the button below to read the explanation and see the list of available commands powered By Zaid!**
 
-⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ""",
+⚡ __Powered by {BOT_NAME} ᴋɪᴅ""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -120,7 +120,7 @@ async def help_(client: Client, message: Message):
 
 **in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
 
-⚡ __Powered by {BOT_NAME} Zaid__""",
+⚡ __Powered by {BOT_NAME} Kid__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -160,8 +160,8 @@ async def ping_pong(client: Client, message: Message):
     m_reply = await message.reply_text("ᴢ ᴘɪɴɴɢ...")
     delta_ping = time() - start
     await m_reply.edit_text(
-        "𝚣 `ᴘᴏɴɢ!!`\n"
-        f"🇿  `{delta_ping * 1000:.3f} ᴍꜱ`"
+        "ᴋɪᴅ `ᴘᴏɴɢ!!`\n"
+        f"🇰  `{delta_ping * 1000:.3f} ᴍꜱ`"
     )
 
 
