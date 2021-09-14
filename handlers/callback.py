@@ -89,7 +89,7 @@ async def cbhelp(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🏡ᴢ ʙᴀᴄᴋ", callback_data="cbguide"
+                        "🏡ᴋɪᴅ ʙᴀᴄᴋ", callback_data="cbguide"
                     )
                 ]
             ]
@@ -130,7 +130,7 @@ async def cbbasic(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🏡 ᴢ ʙᴀᴄᴋ", callback_data="cbhelp"
+                        "🏡 ᴋɪᴅ ʙᴀᴄᴋ", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -154,7 +154,7 @@ async def cbadvanced(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🏡 ᴢ ʙᴀᴄᴋ", callback_data="cbhelp"
+                        "🏡 ᴋɪᴅ ʙᴀᴄᴋ", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -188,7 +188,7 @@ async def cbadmin(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ᴢ ʙᴀᴄᴋ", callback_data="cbhelp"
+                        "ᴋɪᴅ ʙᴀᴄᴋ", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -210,7 +210,7 @@ async def cbsudo(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🏡 ᴢ ʙᴀᴄᴋ", callback_data="cbhelp"
+                        "🏡 ᴋɪᴅ ʙᴀᴄᴋ", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -236,7 +236,7 @@ async def cbowner(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🏡 ᴢ ʙᴀᴄᴋ", callback_data="cbhelp"
+                        "🏡 ᴋɪᴅ ʙᴀᴄᴋ", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -260,7 +260,7 @@ async def cbfun(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🏡 ᴢ ʙᴀᴄᴋ", callback_data="cbhelp"
+                        "🏡 ᴋɪᴅ ʙᴀᴄᴋ", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -375,7 +375,7 @@ and you can also set a time for the ban and mute penalties for members in your g
             [
                 [
                     InlineKeyboardButton(
-                        "🏡 ᴢ ʙᴀᴄᴋ", callback_data="cbback"
+                        "🏡 ᴋɪᴅ ʙᴀᴄᴋ", callback_data="cbback"
                     )
                 ]
             ]
@@ -405,7 +405,7 @@ async def cbdelcmds(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🏡 ᴢ ʙᴀᴄᴋ", callback_data="cbback"
+                        "🏡 ᴋɪᴅ ʙᴀᴄᴋ", callback_data="cbback"
                     )
                 ]
             ]
@@ -451,7 +451,7 @@ async def cbhelps(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🏡 ᴢ ʙᴀᴄᴋ", callback_data="cbstart"
+                        "🏡 ᴋɪᴅ ʙᴀᴄᴋ", callback_data="cbstart"
                     )
                 ]
             ]
@@ -474,7 +474,7 @@ async def cbguides(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🏡 ᴢ ʙᴀᴄᴋ", callback_data="cbstart"
+                        "🏡 ᴋɪᴅ ʙᴀᴄᴋ", callback_data="cbstart"
                     )
                 ]
             ]
