@@ -58,7 +58,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"**🎧 ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ @kidprobot**"
+        rep = f"**🎧 ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ [ᴋɪᴅ](t.me/kidhub)**"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(dur_arr[i]) * secmul
@@ -257,7 +257,7 @@ async def ytmusic(client, message: Message):
     urlissed = get_text(message)
 
     pablo = await client.send_message(
-        message.chat.id, f"💡 __Getting {urlissed} from zaid server, please wait...__"
+        message.chat.id, f"💡 __Getting {urlissed} from kid server, please wait...__"
     )
     if not urlissed:
         await pablo.edit("invalid command syntax, please check help menu to know more!")
